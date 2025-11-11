@@ -1,8 +1,8 @@
-def move(my_list, direction):
+def move(my_list, direction= None):
     # Finds the index of the one in the list
     index_of_one = my_list.index(1)
 
-    if index_of_one == (len(my_list) - 1) or index_of_one == 0:
+    if index_of_one == len(my_list) - 1 or index_of_one == 0:
       
         return my_list
     
