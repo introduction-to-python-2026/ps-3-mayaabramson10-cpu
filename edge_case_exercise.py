@@ -6,7 +6,10 @@ def move(my_list, direction= None):
 
     if index_of_one == x or index_of_one == 0:
       
-        return my_list
+        if direction == 'right':
+            return my_list
+        else:
+            return my_list
     
     else:
 
